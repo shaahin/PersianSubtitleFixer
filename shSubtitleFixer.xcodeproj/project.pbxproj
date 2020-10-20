@@ -1,0 +1,389 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D14914DE1381BA7F00E4A856 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D14914DD1381BA7F00E4A856 /* Cocoa.framework */; };
+		D14914E81381BA7F00E4A856 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D14914E61381BA7F00E4A856 /* InfoPlist.strings */; };
+		D14914EB1381BA7F00E4A856 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D14914EA1381BA7F00E4A856 /* main.m */; };
+		D14914EE1381BA7F00E4A856 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = D14914EC1381BA7F00E4A856 /* Credits.rtf */; };
+		D14914F11381BA7F00E4A856 /* shSubtitleFixerAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D14914F01381BA7F00E4A856 /* shSubtitleFixerAppDelegate.m */; };
+		D14914F41381BA7F00E4A856 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = D14914F21381BA7F00E4A856 /* MainMenu.xib */; };
+		D14915031384650F00E4A856 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D14915021384650F00E4A856 /* WebKit.framework */; };
+		D1491508138475A300E4A856 /* Credits.html in Resources */ = {isa = PBXBuildFile; fileRef = D1491507138475A300E4A856 /* Credits.html */; };
+		EB4F5B061BFE796F008504AC /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB4F5B051BFE796F008504AC /* Media.xcassets */; };
+		EB62F74B1C01000800FDF2C1 /* AppSandboxFileAccess.m in Sources */ = {isa = PBXBuildFile; fileRef = EB62F7461C01000800FDF2C1 /* AppSandboxFileAccess.m */; };
+		EB62F74C1C01000800FDF2C1 /* AppSandboxFileAccessOpenSavePanelDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EB62F7481C01000800FDF2C1 /* AppSandboxFileAccessOpenSavePanelDelegate.m */; };
+		EB62F74D1C01000800FDF2C1 /* AppSandboxFileAccessPersist.m in Sources */ = {isa = PBXBuildFile; fileRef = EB62F74A1C01000800FDF2C1 /* AppSandboxFileAccessPersist.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D14914DD1381BA7F00E4A856 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		D14914E01381BA7F00E4A856 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		D14914E11381BA7F00E4A856 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		D14914E21381BA7F00E4A856 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D14914E51381BA7F00E4A856 /* shSubtitleFixer-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "shSubtitleFixer-Info.plist"; sourceTree = "<group>"; };
+		D14914E71381BA7F00E4A856 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D14914E91381BA7F00E4A856 /* shSubtitleFixer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "shSubtitleFixer-Prefix.pch"; sourceTree = "<group>"; };
+		D14914EA1381BA7F00E4A856 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D14914ED1381BA7F00E4A856 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		D14914EF1381BA7F00E4A856 /* shSubtitleFixerAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = shSubtitleFixerAppDelegate.h; sourceTree = "<group>"; };
+		D14914F01381BA7F00E4A856 /* shSubtitleFixerAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = shSubtitleFixerAppDelegate.m; sourceTree = "<group>"; };
+		D14914F31381BA7F00E4A856 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		D14915021384650F00E4A856 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		D1491507138475A300E4A856 /* Credits.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = Credits.html; sourceTree = "<group>"; };
+		D15AC3EF13847E9300F878BE /* shPersian Subtitle Fixer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "shPersian Subtitle Fixer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB4F5B051BFE796F008504AC /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
+		EB62F7431C00F89A00FDF2C1 /* shPersian Subtitle Fixer.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "shPersian Subtitle Fixer.entitlements"; sourceTree = "<group>"; };
+		EB62F7451C01000800FDF2C1 /* AppSandboxFileAccess.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppSandboxFileAccess.h; sourceTree = "<group>"; };
+		EB62F7461C01000800FDF2C1 /* AppSandboxFileAccess.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppSandboxFileAccess.m; sourceTree = "<group>"; };
+		EB62F7471C01000800FDF2C1 /* AppSandboxFileAccessOpenSavePanelDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppSandboxFileAccessOpenSavePanelDelegate.h; sourceTree = "<group>"; };
+		EB62F7481C01000800FDF2C1 /* AppSandboxFileAccessOpenSavePanelDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppSandboxFileAccessOpenSavePanelDelegate.m; sourceTree = "<group>"; };
+		EB62F7491C01000800FDF2C1 /* AppSandboxFileAccessPersist.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppSandboxFileAccessPersist.h; sourceTree = "<group>"; };
+		EB62F74A1C01000800FDF2C1 /* AppSandboxFileAccessPersist.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppSandboxFileAccessPersist.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D14914D61381BA7F00E4A856 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D14915031384650F00E4A856 /* WebKit.framework in Frameworks */,
+				D14914DE1381BA7F00E4A856 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D1139AED13858D82000A8C4E /* Graphix */ = {
+			isa = PBXGroup;
+			children = (
+				EB4F5B051BFE796F008504AC /* Media.xcassets */,
+			);
+			name = Graphix;
+			sourceTree = "<group>";
+		};
+		D14914CE1381BA7F00E4A856 = {
+			isa = PBXGroup;
+			children = (
+				EB62F7431C00F89A00FDF2C1 /* shPersian Subtitle Fixer.entitlements */,
+				D1491507138475A300E4A856 /* Credits.html */,
+				D1139AED13858D82000A8C4E /* Graphix */,
+				D14914E31381BA7F00E4A856 /* shSubtitleFixer */,
+				D14914DC1381BA7F00E4A856 /* Frameworks */,
+				D14914DA1381BA7F00E4A856 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D14914DA1381BA7F00E4A856 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D15AC3EF13847E9300F878BE /* shPersian Subtitle Fixer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D14914DC1381BA7F00E4A856 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D14914DD1381BA7F00E4A856 /* Cocoa.framework */,
+				D14914DF1381BA7F00E4A856 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D14914DF1381BA7F00E4A856 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D14914E01381BA7F00E4A856 /* AppKit.framework */,
+				D14914E11381BA7F00E4A856 /* CoreData.framework */,
+				D14914E21381BA7F00E4A856 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		D14914E31381BA7F00E4A856 /* shSubtitleFixer */ = {
+			isa = PBXGroup;
+			children = (
+				EB62F7441C00FFF500FDF2C1 /* Access */,
+				D14914EF1381BA7F00E4A856 /* shSubtitleFixerAppDelegate.h */,
+				D14914F01381BA7F00E4A856 /* shSubtitleFixerAppDelegate.m */,
+				D14914F21381BA7F00E4A856 /* MainMenu.xib */,
+				D14914E41381BA7F00E4A856 /* Supporting Files */,
+			);
+			path = shSubtitleFixer;
+			sourceTree = "<group>";
+		};
+		D14914E41381BA7F00E4A856 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D14915021384650F00E4A856 /* WebKit.framework */,
+				D14914E51381BA7F00E4A856 /* shSubtitleFixer-Info.plist */,
+				D14914E61381BA7F00E4A856 /* InfoPlist.strings */,
+				D14914E91381BA7F00E4A856 /* shSubtitleFixer-Prefix.pch */,
+				D14914EA1381BA7F00E4A856 /* main.m */,
+				D14914EC1381BA7F00E4A856 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EB62F7441C00FFF500FDF2C1 /* Access */ = {
+			isa = PBXGroup;
+			children = (
+				EB62F7451C01000800FDF2C1 /* AppSandboxFileAccess.h */,
+				EB62F7461C01000800FDF2C1 /* AppSandboxFileAccess.m */,
+				EB62F7471C01000800FDF2C1 /* AppSandboxFileAccessOpenSavePanelDelegate.h */,
+				EB62F7481C01000800FDF2C1 /* AppSandboxFileAccessOpenSavePanelDelegate.m */,
+				EB62F7491C01000800FDF2C1 /* AppSandboxFileAccessPersist.h */,
+				EB62F74A1C01000800FDF2C1 /* AppSandboxFileAccessPersist.m */,
+			);
+			name = Access;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D14914D81381BA7F00E4A856 /* shPersian Subtitle Fixer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D14914F71381BA7F00E4A856 /* Build configuration list for PBXNativeTarget "shPersian Subtitle Fixer" */;
+			buildPhases = (
+				D14914D51381BA7F00E4A856 /* Sources */,
+				D14914D61381BA7F00E4A856 /* Frameworks */,
+				D14914D71381BA7F00E4A856 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "shPersian Subtitle Fixer";
+			productName = shSubtitleFixer;
+			productReference = D15AC3EF13847E9300F878BE /* shPersian Subtitle Fixer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D14914D01381BA7F00E4A856 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Idea Pardazan Seeb Co. LTD";
+				TargetAttributes = {
+					D14914D81381BA7F00E4A856 = {
+						DevelopmentTeam = 62KTCLHJ2C;
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = D14914D31381BA7F00E4A856 /* Build configuration list for PBXProject "shSubtitleFixer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D14914CE1381BA7F00E4A856;
+			productRefGroup = D14914DA1381BA7F00E4A856 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D14914D81381BA7F00E4A856 /* shPersian Subtitle Fixer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D14914D71381BA7F00E4A856 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D14914E81381BA7F00E4A856 /* InfoPlist.strings in Resources */,
+				D14914EE1381BA7F00E4A856 /* Credits.rtf in Resources */,
+				D14914F41381BA7F00E4A856 /* MainMenu.xib in Resources */,
+				D1491508138475A300E4A856 /* Credits.html in Resources */,
+				EB4F5B061BFE796F008504AC /* Media.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D14914D51381BA7F00E4A856 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB62F74C1C01000800FDF2C1 /* AppSandboxFileAccessOpenSavePanelDelegate.m in Sources */,
+				D14914EB1381BA7F00E4A856 /* main.m in Sources */,
+				EB62F74B1C01000800FDF2C1 /* AppSandboxFileAccess.m in Sources */,
+				EB62F74D1C01000800FDF2C1 /* AppSandboxFileAccessPersist.m in Sources */,
+				D14914F11381BA7F00E4A856 /* shSubtitleFixerAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D14914E61381BA7F00E4A856 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D14914E71381BA7F00E4A856 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D14914EC1381BA7F00E4A856 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D14914ED1381BA7F00E4A856 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		D14914F21381BA7F00E4A856 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D14914F31381BA7F00E4A856 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D14914F51381BA7F00E4A856 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = shPersianSubtitleFixer;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		D14914F61381BA7F00E4A856 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				PRODUCT_NAME = shPersianSubtitleFixer;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		D14914F81381BA7F00E4A856 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "shPersian Subtitle Fixer.entitlements";
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "shSubtitleFixer/shSubtitleFixer-Prefix.pch";
+				INFOPLIST_FILE = "shSubtitleFixer/shSubtitleFixer-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				PRODUCT_BUNDLE_IDENTIFIER = us.shaahin.shSubtitleFixer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D14914F91381BA7F00E4A856 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "shPersian Subtitle Fixer.entitlements";
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "shSubtitleFixer/shSubtitleFixer-Prefix.pch";
+				INFOPLIST_FILE = "shSubtitleFixer/shSubtitleFixer-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				PRODUCT_BUNDLE_IDENTIFIER = us.shaahin.shSubtitleFixer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D14914D31381BA7F00E4A856 /* Build configuration list for PBXProject "shSubtitleFixer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D14914F51381BA7F00E4A856 /* Debug */,
+				D14914F61381BA7F00E4A856 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D14914F71381BA7F00E4A856 /* Build configuration list for PBXNativeTarget "shPersian Subtitle Fixer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D14914F81381BA7F00E4A856 /* Debug */,
+				D14914F91381BA7F00E4A856 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D14914D01381BA7F00E4A856 /* Project object */;
+}
